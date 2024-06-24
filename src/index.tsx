@@ -18,6 +18,10 @@ const router = createBrowserRouter([
         path: "/about",
         element: <div>Hello world!<br/> <Link to="/">Main</Link></div>,
     },
+    {
+        path: "*",
+        element: <div>404<br/> <Link to="/">Main</Link></div>,
+    },
 ]);
 
 root.render(
