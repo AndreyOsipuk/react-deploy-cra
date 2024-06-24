@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, Link, RouterProvider} from "react-router-dom";
+import {homepage} from '../package.json'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,7 +23,10 @@ const router = createBrowserRouter([
         path: "*",
         element: <div>404<br/> <Link to="/">Main</Link></div>,
     },
-]);
+],
+{
+    basename: homepage,
+});
 
 root.render(
   <React.StrictMode>

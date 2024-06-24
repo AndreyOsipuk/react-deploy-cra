@@ -1,6 +1,6 @@
 {
   "name": "react-deploy",
-  "homepage": "https://andreyosipuk.github.io/react-deploy-cra/",
+  "homepage": "/react-deploy-cra",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
