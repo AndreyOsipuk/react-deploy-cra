@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-deploy-cra/static/css/main.e6c13ad2.css",
-    "main.js": "/react-deploy-cra/static/js/main.f23ac305.js",
+    "main.js": "/react-deploy-cra/static/js/main.dffa0f44.js",
     "static/js/453.915404c4.chunk.js": "/react-deploy-cra/static/js/453.915404c4.chunk.js",
     "404.html": "/react-deploy-cra/404.html",
     "index.html": "/react-deploy-cra/index.html",
     "main.e6c13ad2.css.map": "/react-deploy-cra/static/css/main.e6c13ad2.css.map",
-    "main.f23ac305.js.map": "/react-deploy-cra/static/js/main.f23ac305.js.map",
+    "main.dffa0f44.js.map": "/react-deploy-cra/static/js/main.dffa0f44.js.map",
     "453.915404c4.chunk.js.map": "/react-deploy-cra/static/js/453.915404c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f23ac305.js"
+    "static/js/main.dffa0f44.js"
   ]
 }
