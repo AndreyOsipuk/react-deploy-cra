@@ -4,7 +4,7 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, Link, RouterProvider} from "react-router-dom";
-import {homepage} from '../package.json'
+import json from '../package.json'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     },
 ],
 {
-    basename: homepage,
+    basename: json.homepage,
 });
 
 root.render(
